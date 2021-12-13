@@ -6,12 +6,17 @@
 /*   By: dhawkgir <dhawkgir@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 23:03:05 by dhawkgir          #+#    #+#             */
-/*   Updated: 2021/11/07 16:37:45 by dhawkgir         ###   ########.fr       */
+/*   Updated: 2021/12/13 13:12:43 by dhawkgir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
+
+#ifndef BUFFER_SIZE
+# define BUFFER_SIZE 42
+#endif
+
 # include <stdlib.h>
 # include <unistd.h>
 
